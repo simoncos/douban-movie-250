@@ -1,0 +1,5 @@
+# run "pip install -r requirements.txt"
+requests
+beautifulsoup4
+scrapy
+scrapy-fake-useragent
