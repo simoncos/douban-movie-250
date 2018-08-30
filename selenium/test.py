@@ -2,10 +2,13 @@ import time
 import platform
 from selenium import webdriver
 
+# download and put chromedriver_to the path first
 if platform.system() == 'Windows':
-    driver = webdriver.Chrome('C:\\Users\\chromedriver.exe') # download and put chromedriver.exe to this path first
+    driver = webdriver.Chrome('./chromedriver_win32.exe')
+elif platform.system() == 'Linux':
+    driver = webdriver.Chrome('./chromedriver_linux')
 else:
-    driver = webdriver.Chrome('./chromedriver')
+    driver = webdriver.Chrome('./chromedriver_mac')
 
 driver.get('https://movie.douban.com/top250')
 
