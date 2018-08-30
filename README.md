@@ -25,3 +25,9 @@
   # 处理爬到的数据，打印最终结果
   python output.py
   ```
+- selenium crawler: 使用selenium及Chromedriver
+
+  ```bash
+  # 进入`selenium`，爬取并打印数据
+  python test.py
+  ```
