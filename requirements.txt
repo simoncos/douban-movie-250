@@ -3,3 +3,4 @@ requests
 beautifulsoup4
 scrapy
 scrapy-fake-useragent
+selenium
